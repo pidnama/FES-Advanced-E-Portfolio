@@ -1,7 +1,3 @@
-// TEMPLATE ID: template_co1ocyt
-// Service ID: service_wtl0a9d
-// UID: hLSWPmSsE780AMibL
-
 let isModalOpen = false;
 let contrastToggle = false;
 const scaleFactor = 1 / 20;
@@ -14,9 +10,7 @@ function moveBackground(event) {
   for (let i = 0; i < shapes.length; ++i) {
     const isOdd = i % 2 !== 0;
     const boolInt = isOdd ? -1 : 1;
-    shapes[i].style.transform = `translate(${x * boolInt}px, ${
-      y * boolInt
-    }px)`;
+    shapes[i].style.transform = `translate(${x * boolInt}px, ${y * boolInt}px)`;
   }
 }
 
