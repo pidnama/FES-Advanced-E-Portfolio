@@ -132,6 +132,17 @@ LANDING PAGE
   width: 4px;
   height: 6px;
   border-radius: 2px;
+  animation: scroll 1000ms infinite alternate-reverse;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateY(3px);
+  }
+
+  100% {
+    transform: translateY(-3px);
+  }
 }
 
 /* 
